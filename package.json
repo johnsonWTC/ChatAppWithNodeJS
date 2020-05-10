@@ -1,19 +1,23 @@
 {
-  "name": "chatappwithnodejs",
-  "version": "1.0.0",
-  "description": "simple chat app with nodeJS",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnsonWTC/ChatAppWithNodeJS.git"
-  },
-  "author": "johnson dubula",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnsonWTC/ChatAppWithNodeJS/issues"
-  },
-  "homepage": "https://github.com/johnsonWTC/ChatAppWithNodeJS#readme"
+    "name": "chatappwithnodejs",
+    "version": "1.0.0",
+    "description": "simple chat app with nodeJS",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johnsonWTC/ChatAppWithNodeJS.git"
+    },
+    "author": "johnson dubula",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/johnsonWTC/ChatAppWithNodeJS/issues"
+    },
+    "homepage": "https://github.com/johnsonWTC/ChatAppWithNodeJS#readme",
+    "dependencies": {
+        "socket.io": "*",
+        "express": "4.17.1"
+    }
 }
