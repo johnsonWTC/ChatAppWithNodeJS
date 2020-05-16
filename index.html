@@ -17,26 +17,29 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="well">
-                    <h3>Online Users</h3>
+                <div class="card card-body bg-light">
+                    <h3>online users</h3>
                     <ul class="list-group" id="users"></ul>
                 </div>
             </div>
+
             <div class="col-md-8">
                 <div class="chat" id="chat"></div>
-
                 <form id="messageForm">
                     <div class="form-group">
-                        <label>Enter Message </label>
+                        <label>Enter massege</label>
                         <textarea class="form-control" id="message"></textarea>
                         <br/>
-                        <input type="submit" class="btn btn-primary" value="send message">
+                        <input type="submit" class="btn btn-primary" value="Send Message" />
                     </div>
                 </form>
             </div>
+
         </div>
+
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 </body>
 <script>
     $(function() {
